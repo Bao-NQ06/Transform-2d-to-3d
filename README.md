@@ -44,6 +44,8 @@ If you want to close the local webbapp. Press Ctrl + c in terminal.
 ```bash
 python transform_3d.py
 ```
+* You can replace image path with your own image path for more experience
+
 
 5. Deactivate the Virtual Environment: When you are done, deactivate the virtual environment by running:
 ```bash
