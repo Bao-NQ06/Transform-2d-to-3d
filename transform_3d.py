@@ -20,7 +20,7 @@ model = GLPNForDepthEstimation.from_pretrained('vinvino02/glpn-nyu')
 
 #3. Loading and resizing image
 
-image = Image.open("apple.jpg")
+image = Image.open("banana.jpg")
 new_height = 480 if image.height > 480 else image.height
 new_height -= (new_height % 32)
 new_width = int(new_height * image.width / image.height)
@@ -54,6 +54,7 @@ ax[1].imshow(output, cmap='plasma')
 ax[1].tick_params(left= False, bottom= False, labelleft= False, labelbottom= False)
 plt.tight_layout()
 #plt.pause(10)
+plt.show()
 
 
 
